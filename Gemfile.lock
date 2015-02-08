@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     stellar_rails (0.6.2)
-      jquery-rails (~> 4.0.x)
+      jquery-rails
       rails (> 4.1)
       railties
 
