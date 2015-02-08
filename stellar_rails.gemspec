@@ -9,15 +9,15 @@ Gem::Specification.new do |s|
   s.version     = StellarRails::VERSION
   s.authors     = ["Ziyan Junaideen"]
   s.email       = ["jdeen-solutions@outlook.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of StellarRails."
-  s.description = "TODO: Description of StellarRails."
+  s.homepage    = "http://www.jdeen.com/portfolio/stellar-rails.html"
+  s.summary     = "Rails plugin to include jQuery stellar in you Rails 4 application"
+  s.description = "Rails plugin to include jQuery stellar in you Rails 4 application"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.0"
+  s.add_dependency "rails", "~> 4.0.0"
 
   s.add_development_dependency "sqlite3"
 end
