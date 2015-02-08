@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Rails plugin to include jQuery stellar in you Rails 4 application"
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "> 4.0.0"
